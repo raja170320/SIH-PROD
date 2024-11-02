@@ -48,3 +48,4 @@ AdminSchema.plugin(encrypt, { secret: secret, encryptedFields: ['password'] })
 const Admin = mongoose.model('Admin', AdminSchema)
 module.exports = Admin
 
+// raja beta
